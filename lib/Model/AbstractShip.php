@@ -119,4 +119,8 @@ abstract class AbstractShip
     {
         $this->id = $id;
     }
+    public function __get($propertyName)
+    {
+        return $this->$propertyName;
+    }
 }
