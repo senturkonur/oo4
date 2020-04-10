@@ -1,6 +1,6 @@
 <?php
 require __DIR__.'/bootstrap.php';
-
+use Battle\BattleManager;
 $container = new Container($configuration);
 
 $shipLoader = $container->getShipLoader();
